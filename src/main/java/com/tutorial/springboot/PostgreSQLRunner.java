@@ -40,6 +40,7 @@ public class PostgreSQLRunner implements ApplicationRunner {
         }
 
         jdbcTemplate.execute("INSERT INTO ACCOUNT VALUES(1, 'Twice')");
+        jdbcTemplate.execute("INSERT INTO ACCOUNT VALUES(2, 'Sana')");
     }
 }
 
